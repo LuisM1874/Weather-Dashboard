@@ -32,3 +32,27 @@
     padding: 10px;
     margin: 10px;
   }
+
+  header {
+    background: #1a2846;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  /* Tablets - landscape and portrait */
+  @media screen and (max-width: 1180px) {
+    .fiveForecast {
+      flex-direction: column;
+    }
+    }
+  
+  /* Small screens */
+  @media screen and (max-width: 576px) {
+    .row.present-day-weather {
+      --bs-gutter-x: 0rem;
+      margin: 10px 0;
+    }
+    .present-day-weather ul {
+      margin: 10px 0;
+    }
+  }
